@@ -9,3 +9,8 @@ SQL databases stores data in rows and columns structure.
 # Why do developers use PostgreSQL so much?
 
 There isn't just one reason. PostgreSQL is popular because it's powerful, reliable, open-source, and flexible.
+
+- It's excellent at relational data
+- It handles serious amounts of data
+- It's open source
+- It's reliable
