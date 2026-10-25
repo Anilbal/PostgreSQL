@@ -4,3 +4,4 @@ Type:  \copyright for distribution terms
        \? for help with psql commands
        \g or terminate with semicolon to execute query
        \q to quit
+       \l to see List of databases
