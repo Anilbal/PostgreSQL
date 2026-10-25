@@ -1,0 +1,7 @@
+STEP 1>in your terminal, simple type: psql
+
+NOTE** psql stands for PostgreSQL interactive terminal. It is a command-line program that lets you communicate with a PostgreSQL database.
+
+STEP 2>then again type: CREATE DATABASE your_database_name;
+
+NOTE** semicolon must need to be there while create your database
