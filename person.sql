@@ -1,8 +1,10 @@
 create table person (
+	id BIGSERIAL NOT NULL PRIMARY KEY,
 	first_name VARCHAR(50),
 	last_name VARCHAR(50),
 	email VARCHAR(50),
-	gender VARCHAR(50)
+	gender VARCHAR(50),
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 insert into person (first_name, last_name, email, gender) values ('Chryste', 'Patkin', 'cpatkin0@fda.gov', 'Bigender');
 insert into person (first_name, last_name, email, gender) values ('Estelle', 'Redwall', 'eredwall1@shinystat.com', 'Female');
